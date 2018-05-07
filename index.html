@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <title>Test</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link"></a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li class="header__ul-list">
+                            <a href="#" class="header__ul-link  header__ul-link-active">Rersonal Plans</a>
+                        </li>
+                        <li class="header__ul-list">
+                            <a href="#" class="header__ul-link">Business Plans</a>
+                        </li>
+                        <li class="header__ul-list">
+                            <a href="#" class="header__ul-link">Guide</a>
+                        </li>
+                        <li class="header__ul-list">
+                            <a href="#" class="header__ul-link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__canvas">
+                    <button class="header__menu"></button>
+                    <div class="header__menu-box">
+                        <button class="header__menu-close"></button>
+                        <ul class="header__menu-ul">
+                            <li class="header__menu-list">
+                                <a href="#" class="header__menu-link header__menu-link--active">Personal Plans</a>
+                            </li>
+                            <li class="header__menu-list">
+                                <a href="#" class="header__menu-link">Business Plans</a>
+                            </li>
+                            <li class="header__menu-list">
+                                <a href="#" class="header__menu-link">Guide</a>
+                            </li>
+                            <li class="header__menu-list">
+                                <a href="#" class="header__menu-link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="desc">
+            <h3 class="desc__title">Insurance list:</h3>
+            <div class="desc__view">
+                <button class="desc__view-btn desc__tablet" type="button"></button>
+                <button class="desc__view-btn desc__card" type="button"></button>
+            </div>
+        </section>
+        <section class="table__section">
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Covering</th>
+                            <th>Type</th>
+                            <th>Metal level</th>
+                            <th>Drugs</th>
+                            <th>Primary
+                                <br>Care Visits</th>
+                            <th>Yearly
+                                <br>Deductible</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co1.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Insurcom</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="table__health-td" data-th="Covering">
+                                <span>Health</span>
+                            </td>
+                            <td class="table__type-td" data-th="Type">
+                                <div class="table__td-span">PPO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">PPO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="table__metal-td" data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle"></div>
+                                    Platinium
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Platinum metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="table__drugs-td" data-th="Drugs">
+                                <span>$15</span>
+                            </td>
+                            <td class="table__visits-td" data-th="Primary Care Visits">
+                                <span class="">$75</span>
+                            </td>
+                            <td class="table__year-td" data-th="Yearly Deductible">
+                                <span>$6000</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$356/mon</span>
+                            </td>
+                            <td class="table__btn-td" data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co2.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Health Ins</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star--grey"></div>
+                                            <div class="table__name-star--grey"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>All-in-one</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">HMO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">HMO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-s"></div>
+                                    Silver
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Silver metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>100%</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">$45</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$4500</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$611/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co3.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Dentalife</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star--grey"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>Dental</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">EPO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">EPO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-g"></div>
+                                    Gold
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Gold metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>100%</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">$75</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$5000</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$283/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co1.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Insurcom</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>Vision</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">POS
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">POS type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-b"></div>
+                                    Bronze
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Bronze metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>100%</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">$60</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$2600</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$214/mon</span>
+                            </td>
+                            <td data-th="Price">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co4.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Medicon</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>Health</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">PPO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">PPO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-c"></div>
+                                    Catastrophic
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Catastrophic metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>$20</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">40%</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$6000</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$300/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co2.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Health Ins</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star--grey"></div>
+                                            <div class="table__name-star--grey"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>Dental</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">POS
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">POS type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle"></div>
+                                    Platinium
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Platinum metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>$15</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">$75</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$5000</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$234/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co1.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Insurcom</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>Health</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">HMO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">HMO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-g"></div>
+                                    Gold
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Gold metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>100%</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">$45</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$4500</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$366/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__name-td" data-th="Company">
+                                <div class="table__box">
+                                    <img src="assets/img/co4.png" alt="" class="table__name-img">
+                                    <div class="table__name-info">
+                                        <p class="table__name-title">Medicon</p>
+                                        <div class="table__name-stars">
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                            <div class="table__name-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Covering">
+                                <span>All-in-one</span>
+                            </td>
+                            <td data-th="Type">
+                                <div class="table__td-span">EPO
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">EPO type</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Metal level">
+                                <div class="table__td-span">
+                                    <div class="table__circle table__circle-c"></div>
+                                    Catastrophic
+                                    <div class="table__tool">
+                                        <p class="table__tooltip">?
+                                            <span class="tooltiptext">Catastrophic metal level</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Drugs">
+                                <span>$15</span>
+                            </td>
+                            <td data-th="Primary Care Visits">
+                                <span class="">50%</span>
+                            </td>
+                            <td data-th="Yearly Deductible">
+                                <span>$2600</span>
+                            </td>
+                            <td data-th="Price">
+                                <span>$371/mon</span>
+                            </td>
+                            <td data-th="">
+                                <span class="table__btn-span">
+                                    <button class="table__btn">Overview</button>
+                                    <button class="table__btn">Buy</button>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="cards__section">
+            <div class="cards">
+                <div class="card">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co1.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Insurcom</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Health</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">PPO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">PPO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle"></div>
+                                Platinum
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Platinum level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$356/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__mob">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co2.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Health Ins</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star--grey"></div>
+                                    <div class="table__name-star--grey"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">All-in-one</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">HMO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">HMO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-s"></div>
+                                Silver
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Silver level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$611/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__tablet">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co3.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Dentalife</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star--grey"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Dental</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">EPO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">EPO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-g"></div>
+                                Gold
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Gold level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$283/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__last">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co1.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Insurcom</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Vision</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">POS
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">POS type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-b"></div>
+                                Bronze
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Bronze level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$214/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co1.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Insurcom</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Health</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">PPO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">PPO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle"></div>
+                                Platinum
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Platinum level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$356/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__mob">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co2.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Health Ins</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star--grey"></div>
+                                    <div class="table__name-star--grey"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">All-in-one</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">HMO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">HMO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-s"></div>
+                                Silver
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Silver level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$611/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__tablet">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co3.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Dentalife</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star--grey"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Dental</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">EPO
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">EPO type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-g"></div>
+                                Gold
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Gold level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$283/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+                <div class="card card__last">
+                    <div class="card__box">
+                        <div class="card__header">
+                            <img src="assets/img/co1.png" alt="" class="card__header-img">
+                            <div class="card__header-info">
+                                <p class="card__header-title">Insurcom</p>
+                                <div class="table__name-stars card__header-stars">
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                    <div class="table__name-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Covering:</span>
+                            </p>
+                            <p class="card__col-text">Vision</p>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Type:</span>
+                            </p>
+                            <div class="card__col-text">POS
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">POS type</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <p class="card__col-text">
+                                <span class="card__col-span">Metal level:</span>
+                            </p>
+                            <div class="card__col-text">
+                                <div class="table__circle table__circle-b"></div>
+                                Bronze
+                                <div class="table__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Bronze level</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Drugs</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Drugs:</span>
+                            </div>
+                            <p class="card__col-text">$15</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Primary Care Visits</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Primary Care Visits:</span>
+                            </div>
+                            <p class="card__col-text">$75</p>
+                        </div>
+                        <div class="card__col">
+                            <div class="card__col-text">
+                                <div class="table__tool card__tool">
+                                    <p class="table__tooltip">?
+                                        <span class="tooltiptext">Yearly Deductible</span>
+                                    </p>
+                                </div>
+                                <span class="card__col-span">Yearly Deductible:</span>
+                            </div>
+                            <p class="card__col-text">$6000</p>
+                        </div>
+                        <div class="card__big">
+                            <p class="card__big-text">$214/mon</p>
+                        </div>
+                    </div>
+                    <div class="card__buttons">
+                        <button class="card__button">Overview</button>
+                        <button class="card__button">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <span class="footer__copyright">INSURE. All rights reserved 2017</span>
+                <ul class="footer__ul">
+                    <li class="footer__list">
+                        <a href="#" class="footer__list-link">Personal plans</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="#" class="footer__list-link">Business plans</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="#" class="footer__list-link">Guide</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="#" class="footer__list-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
